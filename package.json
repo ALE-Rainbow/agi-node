@@ -1,15 +1,16 @@
 {
-  "name": "agi-node",
-  "version": "0.0.10",
+  "name": "@ale-rainbow/agi-node",
+  "version": "0.0.11-alpha.1",
   "description": "Asterisk AGI Server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
-  "author": "Alexandru Pirvulescu <alex@tcnbroadcasting.com>",
+  "author": "Alexandru Pirvulescu <alex@tcnbroadcasting.com>, fork by Vincent Bailleau",
   "dependencies": {
     "asterisk-manager": "^0.1.15",
     "fibers": "^1.0.5",
@@ -22,7 +23,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/tcncloud/agi-node.git"
+    "url": "https://github.com/ALE-Rainbow/agi-node.git"
   },
   "keywords": [
     "agi",
