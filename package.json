@@ -1,6 +1,6 @@
 {
   "name": "@ale-rainbow/agi-node",
-  "version": "0.0.11-alpha.1",
+  "version": "0.0.11-alpha.2",
   "description": "Asterisk AGI Server",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
   "author": "Alexandru Pirvulescu <alex@tcnbroadcasting.com>, fork by Vincent Bailleau",
   "dependencies": {
     "asterisk-manager": "^0.1.15",
-    "fibers": "^1.0.5",
+    "fibers": "^4.0.1",
     "sprintf-js": "^1.0.2",
-    "syncho": "^0.2.3"
+    "@ale-rainbow/syncho": "^0.2.6"
   },
   "directories": {
     "example": "examples"
